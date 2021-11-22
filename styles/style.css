@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.myForm {
+    min-width: 500px;
+}
+
+label {
+    font-weight: 500;
+}
+
+#ip-error {
+    color: #ff3a3a;
+    font-size: 12px;
+}
+
+#ip-success {
+    color: #00b118;
+    font-size: 12px;
+}
