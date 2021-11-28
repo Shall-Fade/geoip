@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/ip-icon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
     <title>Geo IP</title>
 </head>
 <body>
+
     <div class="container">
-        <form class="myForm" action="#" id="myForm">
-            <div class="mb-3">
-                <label for="ip" class="form-label">IP-Адрес</label>
-                <input id="ip" type="text" class="form-control" name="ip" placeholder="Введите свой IP-Адрес">
+        <h1>Введите IP-Адрес</h1>
+        <img class="icon" src="./img/ip-icon.png" alt="IP">
+        <form class="myForm" action="result.php" method="get" id="myForm">
+            <div class="input-group">
+                <input class="form-control" type="text" name="ip" id="ip" placeholder="Введите свой IP-Адрес">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Поиск</button>
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">Узнать</button>
         </form>
     </div>
 

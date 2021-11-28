@@ -11,7 +11,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
 }
 
 .myForm {
@@ -23,6 +28,8 @@ label {
 }
 
 #ip-error {
+    position: absolute;
+    margin-top: 45px;
     color: #ff3a3a;
     font-size: 12px;
 }
@@ -30,4 +37,10 @@ label {
 #ip-success {
     color: #00b118;
     font-size: 12px;
+}
+
+.icon {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 20px;
 }
