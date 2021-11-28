@@ -57,6 +57,5 @@ if(isset($_GET['ip'])) {
 
     <script src="libs/jquery/jquery-3.6.0.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="js/ajax.js"></script>
 </body>
 </html>
