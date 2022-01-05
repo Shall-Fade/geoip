@@ -19,7 +19,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.myForm {
+.my-form, .list-group {
     min-width: 500px;
 }
 
@@ -27,14 +27,14 @@ label {
     font-weight: 500;
 }
 
-#ip-error {
+#ipName-error {
     position: absolute;
     margin-top: 45px;
     color: #ff3a3a;
     font-size: 12px;
 }
 
-#ip-success {
+#ipName-success {
     color: #00b118;
     font-size: 12px;
 }
@@ -43,4 +43,25 @@ label {
     width: 85px;
     height: 85px;
     margin-bottom: 20px;
+}
+
+.result-data {
+    margin-top: 45px;
+    display: none;
+}
+
+.my-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-title {
+    color: #b9bfc2;
+    font-weight: 500;
+}
+
+.list-group-description {
+    color: #50565e;
+    font-weight: 700;
 }

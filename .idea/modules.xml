@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/geoip.iml" filepath="$PROJECT_DIR$/.idea/geoip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/geoip2.iml" filepath="$PROJECT_DIR$/.idea/geoip2.iml" />
     </modules>
   </component>
 </project>
